@@ -1,0 +1,14 @@
+node_modules/
+.env
+
+server/README.md
+
+server/node_modules/
+server/dist/
+server/.env
+server/prisma/migrations/dev.db
+
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
