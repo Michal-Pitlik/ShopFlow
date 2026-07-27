@@ -90,6 +90,10 @@ export interface Order {
   status: OrderStatus;
   total: number;
   items: OrderItem[];
+  user?: {
+    name: string;
+    email: string;
+  };
   createdAt: string;
   updatedAt: string;
 }
